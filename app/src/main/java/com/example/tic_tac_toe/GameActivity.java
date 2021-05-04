@@ -69,7 +69,7 @@ public class GameActivity extends AppCompatActivity {
             int a0 = grid[winPositions[i][0]];
             int a1 = grid[winPositions[i][1]];
             int a2 = grid[winPositions[i][2]];
-            if(a0==a1 && a1==a2) {
+            if(a0==a1 && a1==a2 && a1 != 2) {
                 winner = a0;
                 break;
             }
